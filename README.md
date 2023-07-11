@@ -1,4 +1,9 @@
-# OnlineWebStore
+# Details
+  Creator : Joe
+  Project Code : AMIT3094
+  Project Name : Den's Toy Online Web Store
+  
+# Description
   Personal project with using J2EE as development framework and Bootstrap 5 as frontend stylish for manager, admin and customer to perform functionalites.
 
 # Project software utilize
