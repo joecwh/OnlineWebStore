@@ -1,14 +1,14 @@
 # Details
-  Creator : Joe
-  Project Code : AMIT3094
-  Project Name : Den's Toy Online Web Store
+  1.  Creator : Joe
+  2.  Project Code : AMIT3094
+  3.  Project Name : Den's Toy Online Web Store
   
 # Description
   Personal project with using J2EE as development framework and Bootstrap 5 as frontend stylish for manager, admin and customer to perform functionalites.
 
 # Project software utilize
-  IDE : Netbean 8.2
-  Database : Derby Database
+  1.  IDE : Netbean 8.2
+  2.  Database : Derby Database
   
 # Database Setup
   The DENS.zip file is the database file, place it under your netbean derby folder.
