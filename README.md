@@ -9,6 +9,7 @@
 # Project software utilize
   1.  IDE : Netbean 8.2
   2.  Database : Derby Database
+  3.  Jar : ITextPdf 5.5.9
   
 # Database Setup
   The DENS.zip file is the database file, place it under your netbean derby folder.
