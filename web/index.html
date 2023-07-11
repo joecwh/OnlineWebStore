@@ -1,0 +1,44 @@
+<style>
+#banner-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-text {
+  animation: slide-banner 10s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes slide-banner {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+</style>
+<script>
+// Activate the carousel on page load
+window.addEventListener('load', function() {
+  var bannerCarousel = document.getElementById('banner-carousel');
+  var carousel = new bootstrap.Carousel(bannerCarousel, {
+    interval: 5000 // Adjust the interval as needed (in milliseconds)
+  });
+});
+</script>
+<div id="banner-container" class="overflow-hidden">
+  <div id="banner-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h3 class="banner-text">LIFE TIME PROMOTION - FREE SHIPPING FEE OVER RM 200 IN ONE TRANSACTION - EAST / WEST MALAYSIA</h3>
+      </div>
+      <div class="carousel-item">
+        <h3 class="banner-text">LIFE TIME PROMOTION - FREE SHIPPING FEE OVER RM 200 IN ONE TRANSACTION - EAST / WEST MALAYSIA</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+

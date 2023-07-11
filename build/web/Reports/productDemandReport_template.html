@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Demand Report</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"/>
+</head>
+
+<body>
+  <div class="container mb-4">
+    <h1 class="text-center my-5">Top &amp; Least 5 Demand Product in {{currentYear}}</h1>
+    
+    <h2>Top 5 Demand Product</h2>
+    <table class="table mb-5">
+      <thead class='text-white bg-danger'>
+        <tr>
+          <th>No</th>
+          <th>Product Name</th>
+          <th>Sales Quantity</th>
+          <th>Rank</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>{{topProduct1}}</td>
+          <td>{{topQuantity1}}</td>
+          <td>1st</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>{{topProduct2}}</td>
+          <td>{{topQuantity2}}</td>
+          <td>2nd</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>{{topProduct3}}</td>
+          <td>{{topQuantity3}}</td>
+          <td>3rd</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>{{topProduct4}}</td>
+          <td>{{topQuantity4}}</td>
+          <td>4th</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>{{topProduct5}}</td>
+          <td>{{topQuantity5}}</td>
+          <td>5th</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <h2>Least 5 Demand Product</h2>
+    <table class="table mb-5">
+      <thead class='text-white bg-danger'>
+        <tr>
+          <th>No</th>
+          <th>Product Name</th>
+          <th>Sales Quantity</th>
+          <th>Rank</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>{{leastProduct1}}</td>
+          <td>{{leastQuantity1}}</td>
+          <td>1st</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>{{leastProduct2}}</td>
+          <td>{{leastQuantity2}}</td>
+          <td>2nd</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>{{leastProduct3}}</td>
+          <td>{{leastQuantity3}}</td>
+          <td>3rd</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>{{leastProduct4}}</td>
+          <td>{{leastQuantity4}}</td>
+          <td>4th</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>{{leastProduct5}}</td>
+          <td>{{leastQuantity5}}</td>
+          <td>5th</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="{{homelogo}}" onerror="this.src='homelogo.png'" alt='company logo' style='width: 140px; height: 70px;'/><br>
+    <i>Den's Toy Enterprise<br>011-1234567<br>No 123, JLN hello,<br>55999, Perak, Malaysia.</i>
+  </div>
+
+</body>
+
+</html>
