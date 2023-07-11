@@ -21,7 +21,7 @@
       email properties settings in SendEmail() method.
 
 # Content Setup
-  1.  In the web folder, open Admin.jsp and login to the Admin page as Manager credential with default same username and password "MANAGER".
+  1.  In the web folder, open Admin.jsp and login to the Admin page as Manager credential with same default username and password "MANAGER".
   2.  Direct to Role selection in navigation and select Admin, add an admin and verify account in your(admin) inbox.
   3.  Direct to Product in navigation, scroll down to add product category and then add a product to show in home page. 
   4.  Direct to Banner in navigation to add home page banner.
