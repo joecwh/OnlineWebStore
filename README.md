@@ -13,7 +13,7 @@
   
 # Database Setup
   The DENS.zip file is the database file, place it under your netbean derby folder.
-  For Example "C:\Users\Lenovo\AppData\Roaming\NetBeans\Derby"
+  For Example "C:\Users\[YOUR_LAPTOP_MODEL]\AppData\Roaming\NetBeans\Derby"
 
 # Email SMTP Setup
   1.  In the enumeration folder, find EmailCode and amend the COMPANY_EMAIL to your gmail address, COMPANY_SMTP_PASSWORD to your gmail app password.
