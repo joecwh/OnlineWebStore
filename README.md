@@ -1,8 +1,7 @@
 # Details
   1.  Creator : Joecwh
-  2.  Project Code : AMIT3094
-  3.  Project Name : Den's Toy Online Web Store
-  4.  Demo video link : [[https://studio.youtube.com/video/KpHIfGQ6avY/edit](https://www.youtube.com/watch?v=I0HMhAPtN4w)](https://www.youtube.com/watch?v=I0HMhAPtN4w&t=49s)
+  2.  Project Name : Den's Toy Online Web Store
+  3.  Demo video link : [[https://studio.youtube.com/video/KpHIfGQ6avY/edit](https://www.youtube.com/watch?v=I0HMhAPtN4w)](https://www.youtube.com/watch?v=I0HMhAPtN4w&t=49s)
   
 # Description
   Personal project with using J2EE as development framework and Bootstrap 5 as frontend stylish for manager, admin and customer to perform functionalites.
